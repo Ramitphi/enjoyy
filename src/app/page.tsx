@@ -9,7 +9,7 @@ const frameMetadata = getFrameMetadata({
       label: "Enjoooyyyyyy !!!",
     },
   ],
-  image: `${NEXT_PUBLIC_URL}/finenjoy.png`,
+  image: `${NEXT_PUBLIC_URL}/enjoy.png`,
 
   post_url: `${NEXT_PUBLIC_URL}/api/frame`,
 });
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "ramit",
     description: "LFG",
-    images: [`${NEXT_PUBLIC_URL}/finenjoy.png`],
+    images: [`${NEXT_PUBLIC_URL}/enjoy.png`],
   },
   other: {
     ...frameMetadata,
