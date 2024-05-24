@@ -10,7 +10,7 @@ import { transferToken } from "../../utils/transfer";
 import { Redis } from "@upstash/redis";
 import getAddress from "../../utils/getAddress";
 
-const NEXT_PUBLIC_URL = "https://just-sendit.vercel.app";
+const NEXT_PUBLIC_URL = "https://enjoyy.vercel.app";
 
 async function getResponse(req: NextRequest): Promise<NextResponse> {
   init("1108ca72f6a414da788a0bd485866ca62");
