@@ -68,7 +68,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
               label: `Try Again`,
             },
           ],
-          image: `${NEXT_PUBLIC_URL}/sendit_success.png`,
+          image: `${NEXT_PUBLIC_URL}/finenjoy.png`,
 
           post_url: `${NEXT_PUBLIC_URL}/api/frame`,
         })
@@ -81,7 +81,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
               label: `Try again in ${Math.floor(12 - last_claim)} Hours`,
             },
           ],
-          image: `${NEXT_PUBLIC_URL}/sendit.png`,
+          image: `${NEXT_PUBLIC_URL}/finenjoy.png`,
           post_url: `${NEXT_PUBLIC_URL}/api/frame`,
         })
       );
